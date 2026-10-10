@@ -1,0 +1,9 @@
+*.class
+.settings
+.classpath
+.project
+/.metadata/
+/target/
+/test-output/
+/bin/
+push-to-github.bat
