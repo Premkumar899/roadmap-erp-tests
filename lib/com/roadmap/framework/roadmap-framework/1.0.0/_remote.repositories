@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+roadmap-framework-1.0.0.jar>=
+roadmap-framework-1.0.0.pom>=
+roadmap-framework-1.0.0.jar>github=
+roadmap-framework-1.0.0.pom>github=
+roadmap-framework-1.0.0.jar>in-project-repository=
+roadmap-framework-1.0.0.pom>in-project-repository=

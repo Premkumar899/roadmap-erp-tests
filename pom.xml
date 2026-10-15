@@ -11,6 +11,19 @@
 	</properties>
 
 	<repositories>
+		<!-- Local In-Project Framework Repository (Offline & Zero-Setup) -->
+		<repository>
+			<id>in-project-repository</id>
+			<name>RoadMap Framework Local Repository</name>
+			<url>file://${project.basedir}/lib</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+
 		<!-- Remote Framework Repository -->
 		<repository>
 			<id>github</id>

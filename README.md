@@ -4,8 +4,10 @@ This project contains the test automation suites, page object locators, common a
 
 ## Key Features
 
-- **Remote Framework Repository**: Consumes `roadmap-framework-1.0.0` from GitHub Packages remote repository (`https://maven.pkg.github.com/Premkumar899/roadmap-framework`).
-- **Portability**: Managed cleanly via Maven central/remote repositories without local JAR dependencies.
+- **Dual Framework Resolution**:
+  - **In-Project Local Repository (`lib/`)**: Self-contained zero-dependency setup. Works offline instantly on any computer without requiring GitHub tokens or Maven installs.
+  - **GitHub Packages (`roadmap-framework`)**: Can also fetch updates from `https://maven.pkg.github.com/Premkumar899/roadmap-framework` when credentials are configured.
+- **Offline M2 Installer**: Includes `install-framework-to-m2.bat` for quick 1-click installation to your local `.m2` repository and IDE cache.
 - **Execution**: Can be executed via Eclipse TestNG runner or Maven CLI.
 
 ## Running Tests
